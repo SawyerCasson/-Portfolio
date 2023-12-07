@@ -1,0 +1,197 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn,img, ins, kbd, q, s, samp,
+small, strike,sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 300%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* ERROR header, nav, middle section and footer styles do not match site design completely */
+
+
+body{	
+	background-color: gray;
+	font-size; 16px;
+background-image: url(images/MTNpic.jpg
+);/*ERROR*/
+}
+
+h1,p {
+	color: #ffffff;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.5);
+} 
+
+h1{ 
+font-family: Verdana, Arial, sans-serif;
+font-size: 80px;
+float: center;
+background-color: white;
+color: black;
+padding: 5px 5px;
+margin: 10px; 	
+width: auto;
+}
+
+h2{
+font-family: 'Mulish';
+src: url('Mulish-Black.ttf');/*ERROR not how you load type need @font-face rule first */
+font-size: 100%; 	
+margin: 0px auto; 
+text-align: center;
+background-color: white;
+color: black;
+padding: 1px 1px;
+margin: 5px; 	
+width: auto;
+height: auto; 
+
+}
+ /*ERROR need to create diversity in your type hierarchy, assignment 3 points earned back but work on the actual values below to make a visual order of importance */
+ h3{
+font-family: 'Mulish';
+src: url('Mulish-Black.ttf');
+ font-size: 30px;
+ background-color: white;
+color: black;
+padding: 5px 5px;
+margin: 10px; 	
+width: auto;
+height: 200px;
+ }
+ h4{
+color:#123456
+font-family: 'Mulish';
+src: url('Mulish-Black.ttf');
+ font-size: 30px;
+ }
+ h5{
+ font-family: 'Mulish';
+src: url('Mulish-Black.ttf');
+ font-size: 30px;
+ background-color: white; 
+ }
+ h6{
+ font-family: 'Mulish';
+src: url('Mulish-Black.ttf');
+ font-size: 30px;
+ }
+ 
+ /*ERROR header style rules do not match site design */
+header{
+background-color: white;
+padding: 10px 5px;
+margin: 20px; 	
+overflow: auto; 
+}
+nav{
+	width: 80%;
+}
+
+ul li{
+	display: inline-block;
+background-color: red;
+padding: 1px 1px;
+margin: 10px; 
+font-family: Verdana, Arial, sans-serif;
+font-size: 20px;
+float: center;
+color: black;	
+width: auto;
+height: 26px;
+}
+
+header nav ul li a{
+	font-family: 'Mulish-Black', Arial, sans-serif, Verdana;
+	font-weight: 300;
+	font-size: 100%;
+	color: green;
+	text-decoration: none; 
+}
+
+table{
+	background-color: black;
+	color: white;
+border-spacing: 5px; 
+}
+ 
+ tr{
+	 border-bottom: 1px solid white;
+ 
+ }
+ th{
+	border: 5px solid yellow; 
+padding;10px;	
+	font-family: 'Mulish-Black', Arial, sans-serif, Verdana;
+	font-weight: 500;
+	font-size: 100%;  
+ }
+ 
+ footer{
+	 
+	background-color: white; 
+ }
+ 
+ 
+img.imageSize{
+	width: auto;
+	height: 300px;
+}
+	 
+ 
+ 
+ /*ERROR table style rules not cohesive with site design strategy */
+ /* ERROR missing form style rules*/
+ 
+ 
+.imagePortRow{
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+
+figure{
+	width: 23%; 
+	background-color: white; 
+	padding: 1%;
+}
